@@ -7,11 +7,12 @@ import ListItem from "./ListItem.jsx";
 const List = props => {
 	const [data, setData] = useState([]);
 	const [list, setList] = useState(["Go to Gym", "Read", "Make dinner"]);
-
+	// function to update the tasks in the list
 	const handleSubmit = ev => {
 		ev.preventDefault();
 		setList([...list, data]);
 	};
+	// function to remove tasks from the list
 	const handleClik = i => {
 		setList(list.filter((val, position) => position !== i));
 	};
