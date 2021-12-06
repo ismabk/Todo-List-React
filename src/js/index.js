@@ -5,7 +5,7 @@ import "bootstrap";
 
 import "../styles/Index.scss";
 
-import Home from "./component/Home.jsx";
+import List from "./component/List.jsx";
 
 //render the application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<List />, document.querySelector("#app"));

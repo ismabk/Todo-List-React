@@ -19,7 +19,7 @@ const ListItem = props => {
 	);
 };
 ListItem.propTypes = {
-	ix: PropTypes.num,
+	ix: PropTypes.number,
 	valueR: PropTypes.string,
 	removeHandler: PropTypes.func
 };

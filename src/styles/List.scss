@@ -1,8 +1,7 @@
-/* Include the padding and border in an element's total width and height */
 * {
     box-sizing: border-box;
   }
-  /* Style the close button */
+
   .close {
     position: absolute;
     right: 0;
@@ -15,7 +14,7 @@
     color: white;
   }
   
-  /* Style the header */
+
   .header {
     background-color: #f44336;
     padding: 30px 40px;
@@ -23,14 +22,12 @@
     text-align: center;
   }
   
-  /* Clear floats after the header */
   .header:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Style the input */
   input {
     margin: 0;
     border: none;
